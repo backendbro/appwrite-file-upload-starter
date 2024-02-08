@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Solitreo&display=swap');
+
+
+body{
+    font-family: 'Jost', "Roboto",sans-serif;
+    margin-top:20px;
+    background:#eee;
+}
+
+.team-style1 {
+    position: relative;
+}
+
+.team-style1 .team-img {
+    position: relative;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    text-align: center;
+}
+
+.team-style1 .team-img Image {
+    display: inline-block;
+}
+
+.team-style1 .image-actions {
+    position: absolute;
+    top: 5%;
+    overflow: hidden;
+    width: auto;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    z-index: 9;
+}
+
+.team-style1 .image-actions ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.team-style1 .image-actions ul li {
+    margin-bottom: 8px;
+}
+
+.team-style1 .image-actions ul li:last-child {
+    margin-bottom: 0;
+}
+
+button {
+    background-color: #051036;
+    color: hotpink;
+}
+
+@media screen and (max-width: 575px) {
+    .team-style1 .image-actions ul li {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+}
+
+
